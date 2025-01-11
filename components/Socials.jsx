@@ -8,10 +8,17 @@ const socials = [
   },
   { icon: <FaLinkedin />, path: "" },
 ];
+
 const Socials = (props) => {
-  return <div className={props.containerStyle}>
-    {socials.map((social, index) => <Link className={props.iconStyle} href={social.path} key={index}>{social.icon}</Link>)}
-  </div>;
+  return (
+    <div className={props.containerStyle}>
+      {socials.map((social, index) => (
+        <Link className={props.iconStyle} href={social.path} key={index}>
+          {social.icon}
+        </Link>
+      ))}
+    </div>
+  );
 };
 
 export default Socials;

@@ -4,18 +4,18 @@ import Link from "next/link";
 const socials = [
   {
     icon: <FaGithub />,
-    path: "",
+    path: "https://github.com/adenfernandes09",
   },
-  { icon: <FaLinkedin />, path: "" },
+  { icon: <FaLinkedin />, path: "https://www.linkedin.com/in/adenfernandes/" },
 ];
 
 const Socials = (props) => {
   return (
     <div className={props.containerStyle}>
       {socials.map((social, index) => (
-        <Link className={props.iconStyle} href={social.path} key={index}>
+        <a className={props.iconStyle} href={social.path} key={index} target="_blank">
           {social.icon}
-        </Link>
+        </a>
       ))}
     </div>
   );

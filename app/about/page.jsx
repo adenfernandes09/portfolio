@@ -9,29 +9,28 @@ const services = [
     num: "01",
     type: "Web Development",
     href: "",
-    description:
-      "There will be a lot of lorem ipsum or just some resume related content over here. Keep an eye for this section as this content will change at some point",
+    description:"I am well versed with HTML, CSS, JS, Jquery & React and have built many web-applications with the mentioned languages. Well versed with Git and Agile methodologies.",
   },
   {
     num: "02",
     type: "UI/UX",
     href: "",
     description:
-      "There will be a lot of lorem ipsum or just some resume related content over here. Keep an eye for this section as this content will change at some point",
+      "Worked on Figma to create wireframes and layouts utilising advanced concepts such as components and variants that were then handed off to developers",
   },
   {
     num: "03",
     type: "Responsive Design",
     href: "",
     description:
-      "There will be a lot of lorem ipsum or just some resume related content over here. Keep an eye for this section as this content will change at some point",
+      "Part of my responsibility as a developer is to create responsive web applications that work perfectly down to each pixel ranging from devices like mobile, Ipad and large desktops.",
   },
   {
     num: "04",
-    type: "Frameworks something",
+    type: "Frameworks & Libraries",
     href: "",
     description:
-      "There will be a lot of lorem ipsum or just some resume related content over here. Keep an eye for this section as this content will change at some point",
+      "I have worked with frameworks such as Next.js and libraries such as React-redux; CSS libraries such as Tailwind CSS; UI-based frameworks such as Ant Design and ShadCN",
   },
 ];
 

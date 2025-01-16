@@ -26,8 +26,8 @@ export default {
   		colors: {
   			primary: '#1c1c22',
 			accent: {
-				default: '#00ff99',
-				hover: '#00e187',
+				default: '#2bdfff',
+				hover: '#0ed2f5',
 			}
   		},
   		borderRadius: {

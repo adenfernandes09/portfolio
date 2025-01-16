@@ -16,8 +16,7 @@ import { motion } from "framer-motion";
 
 const about = {
   title: "About me",
-  description:
-    "There is a lot of data about me and I need to revisit some of these pages and update them with actual content once I complete this little side project",
+  description:"I am a confident, reliable team player who takes accountability for the work that is assigned to me. I ensure that my tasks are completed within the deadlines allocated to me and always available to support or assist anyone if need be. I am always curious about learning new tech stacks and furthering my goals to make a meaningful impact wherever my services are rendered.",
   info: [
     { fieldName: "Name", fieldValue: "Aden Fernandes" },
     { fieldName: "Phone", fieldValue: "+353-(89)2200290" },
@@ -32,12 +31,12 @@ const experience = {
   icon: "Need to add an icon over here",
   title: "My experience",
   description:
-    "There is a lot of data about me and I need to revisit some of these pages and update them with actual content once I complete this little side project",
+    "I have worked for over 4+ years with Creative Capsule Infotech building web-applications tailored to meet client demands and providing technical solutions to client problems",
   items: [
     {
-      company: "creative Capsule Infotech",
+      company: "Creative Capsule Infotech",
       position: "Frontend Developer",
-      duration: "Jan 2021 - Present",
+      duration: "Jan 2021 - Dec 2024",
     },
     {
       company: "Infosys",
@@ -51,7 +50,7 @@ const education = {
   icon: "Need to add an icon over here",
   title: "My education",
   description:
-    "There is a lot of data about me and I need to revisit some of these pages and update them with actual content once I complete this little side project",
+    "I have obtained my Bachelor's in Information Technology from Shree Rayeshwar Institute of Engineering and Information Technology. During my schooling I built a Smart Home Automation system which was sensor based and would give a user tips on where elecetricity could be better utilised.",
   items: [
     {
       institution:
@@ -145,7 +144,6 @@ const Resume = () => {
                     <TabsContent className="w-full hh-full" value="skills">
                         <div className="flex flex-col gap-[30px] text-center xl:text-left">
                             <h3 className="text-4xl font-bold">{skills.title}</h3>
-                            <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
                             <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl-gap-[30px] gap-4">
                                 {skills.skills.map((skill, index) => {
                                     return(<li key={index}>

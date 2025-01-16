@@ -2,10 +2,10 @@
 import CountUp from "react-countup";
 
 const metrics = [
-  { num: 10, type: "Code Completions" },
-  { num: 12, type: "Projects Completed" },
-  { num: 40, type: "Code Commits" },
-  { num: 24, type: "Languages known" },
+  { num: 1, type: "Hackathon Won" },
+  { num: 10, type: "Projects Worked On" },
+  { num: 400, type: "Code Commits" },
+  { num: 8, type: "Languages known" },
 ];
 const Stats = () => {
   return (

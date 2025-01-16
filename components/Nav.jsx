@@ -7,8 +7,8 @@ const Nav = () => {
   const links = [
     { name: "home", path: "/" },
     { name: "about", path: "/about" },
-    { name: "contact", path: "/contact" },
     { name: "resume", path: "/resume" },
+    { name: "contact", path: "/contact" },
   ];
   return (
     <nav className="flex gap-8">
